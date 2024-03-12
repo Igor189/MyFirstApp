@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Надпись "Обратная связь" -->
         <TextView
             android:id="@+id/textFeedback"
             android:layout_width="match_parent"
@@ -21,7 +20,6 @@
             android:gravity="center"
             android:padding="16dp" />
 
-        <!-- Поле для ввода имени -->
         <EditText
             android:id="@+id/editName"
             android:layout_width="match_parent"
@@ -30,7 +28,6 @@
             android:layout_below="@id/textFeedback"
             android:layout_marginTop="16dp" />
 
-        <!-- Поле для ввода адреса -->
         <EditText
             android:id="@+id/editAddress"
             android:layout_width="match_parent"
@@ -39,7 +36,6 @@
             android:layout_below="@id/editName"
             android:layout_marginTop="16dp" />
 
-        <!-- Поле для ввода электронной почты -->
         <EditText
             android:id="@+id/editEmail"
             android:layout_width="match_parent"
@@ -48,7 +44,6 @@
             android:layout_below="@id/editAddress"
             android:layout_marginTop="16dp" />
 
-        <!-- Поле для ввода темы сообщения -->
         <EditText
             android:id="@+id/editSubject"
             android:layout_width="match_parent"
@@ -57,9 +52,6 @@
             android:layout_below="@id/editEmail"
             android:layout_marginTop="16dp" />
 
-        <!-- Поле для ввода текста сообщения (многострочное) -->
-
-        <!-- Кнопка отправки формы -->
         <EditText
             android:id="@+id/editMessage"
             android:layout_width="match_parent"

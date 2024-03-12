@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                 if (email.isEmpty()) emptyFields += "Email, "
                 if (subject.isEmpty()) emptyFields += "Тема, "
                 if (message.isEmpty()) emptyFields += "Текст сообщения, "
-                emptyFields = emptyFields.dropLast(2) // Удалить последнюю запятую и пробел
+                emptyFields = emptyFields.dropLast(2)
                 Toast.makeText(this, emptyFields, Toast.LENGTH_LONG).show()
             } else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
                 Toast.makeText(this, "Некорректный Email", Toast.LENGTH_LONG).show()
